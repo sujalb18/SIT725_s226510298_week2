@@ -1,0 +1,16 @@
+{
+  "name": "sit725",
+  "version": "1.0.0",
+  "description": "Test install for npm express",
+  "license": "ISC",
+  "author": "Sujal Bhatt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

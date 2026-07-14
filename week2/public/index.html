@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Basic Calculator</title>
+</head>
+
+<body class="container" style="text-align: center; margin-top: 50px; padding: 20px; border: 1px solid #ccc; border-radius: 10px; width: 1000px; margin-left: auto; margin-right: auto;">
+    <h1>Basic Calculator</h1>
+    <form action="/add" method="GET" class="form-group" style="margin-bottom: 20px;">
+        <label for="a">Enter the first number:</label>
+        <input type="number" id="a" name="a" required>
+        <label for="b">Enter the second number:</label>
+        <input type="number" id="b" name="b" required>
+        <button type="submit">Calculate Sum</button>
+    </form>
+    <form action="/subtract" method="POST" class="form-group" style="margin-bottom: 20px;">
+        <label for="a">Enter the first number:</label>
+        <input type="number" id="a" name="a" required>
+        <label for="b">Enter the second number:</label>
+        <input type="number" id="b" name="b" required>
+        <button type="submit">Calculate Difference</button>
+    </form>
+    <form action="/multiply" method="POST" class="form-group" style="margin-bottom: 20px;">
+        <label for="a">Enter the first number:</label>
+        <input type="number" id="a" name="a" required>
+        <label for="b">Enter the second number:</label>
+        <input type="number" id="b" name="b" required>
+        <button type="submit">Calculate Product</button>
+    </form>
+    <form action="/divide" method="POST" class="form-group" style="margin-bottom: 20px;">
+        <label for="a">Enter the first number:</label>
+        <input type="number" id="a" name="a" required>
+        <label for="b">Enter the second number:</label>
+        <input type="number" id="b" name="b" required>
+        <button type="submit">Calculate Quotient</button>
+    </form>
+</body>
+
+</html>
